@@ -15,7 +15,7 @@ class Home extends BaseController
 	}
 
 	public function show() {
-		$adat['nama'] = 'Anisa';
+		$adat['nama'] = 'Hamid';
 		$adat['jurusan'] = 'Ilmu Komputer';
 		echo view("mahasiswa/index", $adat);
 	}
